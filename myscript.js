@@ -1,5 +1,10 @@
 window.onload = () => {
-    function getRandomInt() {
+    
+    button=()=> {
+
+    
+
+      function getRandomInt() {
 
     let who = [
         "my grandpa", 
@@ -19,7 +24,7 @@ window.onload = () => {
         "on my birthday",
         "yesterday", 
         "just right now", 
-        "fifteen minutes agos"];
+        "fifteen minutes ago"];
 
     
     let who2 = Math.floor(Math.random() * who.length);
@@ -33,9 +38,5 @@ window.onload = () => {
     document.querySelector("#excuse-generator").innerHTML = getRandomInt();
   console.log(getRandomInt());
   
-    document.getElementById("generate")
-        .addEventListener("click", getRandomInt());
-
-    getRandomInt();
-
+    };
 };
