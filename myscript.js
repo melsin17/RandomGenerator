@@ -1,8 +1,6 @@
 window.onload = () => {
     
-    button=()=> {
-
-    
+    document.querySelector("#myButton").onclick = () => {
 
       function getRandomInt() {
 
