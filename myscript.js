@@ -12,7 +12,7 @@ window.onload = () => {
 
     let what = [
         "ran away with my car keys", 
-        "drank by beer", 
+        "drank my beer", 
         "ate my burger", 
         "pooped on my car", 
         "stole my amazon package"];
