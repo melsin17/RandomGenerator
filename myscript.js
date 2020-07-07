@@ -21,7 +21,7 @@ window.onload = () => {
         "last christmas", 
         "on my birthday",
         "yesterday", 
-        "just right now", 
+        "just now", 
         "fifteen minutes ago"];
 
     
