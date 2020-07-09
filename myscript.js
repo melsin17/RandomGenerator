@@ -7,7 +7,8 @@ window.onload = () => {
     let who = [
         "my grandpa", 
         "my next door neighbor", 
-        "my cousin", "my dumb dog", 
+        "my cousin", 
+        "my dumb dog", 
         "my grandma"];
 
     let what = [
@@ -25,7 +26,7 @@ window.onload = () => {
         "fifteen minutes ago"];
 
     
-    let who2 = Math.floor(Math.random() * who.length);
+    let who2 = Math.floor(Math.random() * who.length -1);
     let what2 = Math.floor(Math.random() * what.length);
     let when2 = Math.floor(Math.random() * when.length);
 
